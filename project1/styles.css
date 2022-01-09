@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./img/sea.jpg');
+    color:hsla(0, 0%, 100%, 0.905);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh
+
+}
+
+.boddy{
+    color:hsla(0, 0%, 100%, 0.905);
+}
+
+a:hover{
+    color: white
+}
+.container{
+    height: 80vh;
+}
+
+.top-nav{
+    margin: 18px;
+    padding: 0 13px 0 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li a{
+    color:hsla(0, 0%, 100%, 0.884);
+    text-decoration: none;
+    font-size: 18px
+}
+
+nav ul{
+    list-style-type:none;
+}
+
+.top-left-nav nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link-wrapper{
+    padding: 0 20px 0 20px
+}
+
+.line{
+    margin: 0
+}
+
+a{
+    color: white
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top:8em;
+    padding: 20px 0 20px 0;
+    min-height: 50vh
+}
+
+.contents{
+    display: block;
+    margin: auto;
+}
+
+.bottoms{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.bottom1, .bottom2{
+    padding: 10px 20px 10px 20px;
+    margin-top: 20px
+}
+.bottom1{
+    background: rgb(255, 187, 0);
+    margin-left: 10px
+}
+
+.bottom2{
+    border: 2px white solid;
+    margin-left: 15px
+}
+
+.bottoms a{
+    color:hsla(0, 0%, 100%, 0.905);
+    text-decoration: none;
+    cursor: pointer
+}
+
+@media screen and (max-width:850px){
+    .top-left-nav{
+        margin-top: 8px
+    }
+}
